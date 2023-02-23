@@ -106,6 +106,7 @@ int wall_fillowing_one_upgreat(){ //상황에 맞춰 한쪽 벽을 타는 함수
     moter_control(1,L_speed,R_speed,1);
     update_sonar_old();
     delay(10);
+    timer4=millis();
     return 1;
     }
   else if(F_distance>turn_distance && (R_distance >= (mirro_distance/3)*2)){
@@ -118,7 +119,6 @@ int wall_fillowing_one_upgreat(){ //상황에 맞춰 한쪽 벽을 타는 함수
     moter_control(1,L_speed,R_speed,1);
     update_sonar_old();
     delay(10);
-    timer4=millis();
     return 1;
     }
   else if(F_distance>turn_distance && (L_distance >= (mirro_distance/3)*2)){
@@ -131,11 +131,11 @@ int wall_fillowing_one_upgreat(){ //상황에 맞춰 한쪽 벽을 타는 함수
     moter_control(1,L_speed,R_speed,1);
     update_sonar_old();
     delay(10);
-    timer4=millis();
     return 1;
     }
    else {
     moter_control(1,150,150,1);
+    timer4=millis();
     }
    return 0;
   }
@@ -183,7 +183,7 @@ int turn_left(){ // 턴을 해야할 시 왼쪽로 꺽는 함수
   }
 
 void turning_left(){ //중간에 왼쪽으로 구멍이 있을때 들어가는 함수
-  if(R_distance <= turn_distance*1.04 && L_distance >= mirro_distance){
+  if( L_distance >= mirro_distance){
     if(millis()-timer1 >= timer5 && timer1 != 0){
       moter_control(-1,150,150,1);
       delay(timer2);
