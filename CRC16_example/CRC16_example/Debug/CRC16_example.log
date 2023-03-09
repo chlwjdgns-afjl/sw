@@ -1,0 +1,18 @@
+﻿빌드 시작: 2023-02-28 오후 4:30:48
+     1>2 노드의 "E:\kkw\2023\2023 Project\2023 YHT\CRC16_example\CRC16_example\CRC16_example.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\CRC16_example.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CRC16_example.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CRC16_example.cpp
+         CRC16_example.cpp
+     1>e:\kkw\2023\2023 project\2023 yht\crc16_example\crc16_example\crc16_example.cpp(365): warning C4305: '인수' : 'double'에서 'float'(으)로 잘립니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\kkw\2023\2023 Project\2023 YHT\CRC16_example\Debug\CRC16_example.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\kkw\2023\2023 Project\2023 YHT\CRC16_example\Debug\CRC16_example.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\kkw\2023\2023 Project\2023 YHT\CRC16_example\Debug\CRC16_example.lib" /MACHINE:X86 Debug\CRC16_example.obj
+         Debug\stdafx.obj
+         LINK : E:\kkw\2023\2023 Project\2023 YHT\CRC16_example\Debug\CRC16_example.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+         CRC16_example.vcxproj -> E:\kkw\2023\2023 Project\2023 YHT\CRC16_example\Debug\CRC16_example.exe
+     1>"E:\kkw\2023\2023 Project\2023 YHT\CRC16_example\CRC16_example\CRC16_example.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:03.33
