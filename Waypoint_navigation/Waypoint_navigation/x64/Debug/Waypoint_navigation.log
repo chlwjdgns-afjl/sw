@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\user\OneDrive\바탕 화면\Waypoint_navigation\Waypoint_navigation\main.cpp(146,24): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\OneDrive\바탕 화면\Waypoint_navigation\Waypoint_navigation\main.cpp(146,40): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Waypoint_navigation.vcxproj -> C:\Users\user\OneDrive\바탕 화면\Waypoint_navigation\x64\Debug\Waypoint_navigation.exe
